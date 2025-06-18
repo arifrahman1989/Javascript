@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s;
+
+}
+.button-container{
+    display: flex;
+    gap: 15px;
+}
+.button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#blue{
+        background-color: blue;
+    color: black;
+}
+
+
+
+
+
+
+
+.test{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
